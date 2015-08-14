@@ -32,5 +32,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
     s.frameworks = 'UIKit', 'CoreGraphics'
   # s.dependency 'AFNetworking', '~> 2.3'
-    ios.vendored_frameworks  = 'Frameworks/FIDynamicViewController.framework'
+    s.ios.vendored_frameworks  = 'Frameworks/FIDynamicViewController.framework'
 end
