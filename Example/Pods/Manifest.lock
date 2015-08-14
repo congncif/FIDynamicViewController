@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FIDynamicViewController: 16df44f473a046c5f4edcde0ee1c38fa71d0b257
+  FIDynamicViewController: aa61d6a0be8acd86cf7f5678fcfaa7a3fde4bdf2
 
 COCOAPODS: 0.38.2

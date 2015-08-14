@@ -23,7 +23,11 @@
       "Pod/Assets/*.png"
     ]
   },
+  "frameworks": [
+    "UIKit",
+    "CoreGraphics"
+  ],
   "ios": {
-    "frameworks": "Frameworks/FIDynamicViewController.framework"
+    "vendored_frameworks": "Pod/FIDynamicViewController.framework"
   }
 }

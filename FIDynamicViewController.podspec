@@ -12,7 +12,8 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "Frameworks to create dynamic complex view controller"
   s.description      = <<-DESC
-                       Frameworks to create dynamic complex view controller
+                       FIDynamicViewController built makes it easy to create a dynamic and flexible view controller with its contents.
+For example, when you want to create a view controller with the components within it are loaded depends on a particular configuration.
                        DESC
   s.homepage         = "https://github.com/congncif/FIDynamicViewController"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
@@ -24,7 +25,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  #s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
     'FIDynamicViewController' => ['Pod/Assets/*.png']
   }
@@ -32,5 +33,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
     s.frameworks = 'UIKit', 'CoreGraphics'
   # s.dependency 'AFNetworking', '~> 2.3'
-    s.ios.vendored_frameworks  = 'Frameworks/FIDynamicViewController.framework'
+    s.ios.vendored_frameworks  = 'Pod/FIDynamicViewController.framework'
 end
