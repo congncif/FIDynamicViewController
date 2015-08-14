@@ -30,7 +30,7 @@ For example, when you want to create a view controller with the components withi
     'FIDynamicViewController' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
     s.frameworks = 'UIKit', 'CoreGraphics'
   # s.dependency 'AFNetworking', '~> 2.3'
     s.ios.vendored_frameworks  = 'Pod/FIDynamicViewController.framework'
