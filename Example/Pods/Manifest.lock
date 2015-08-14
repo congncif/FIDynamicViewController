@@ -1,0 +1,14 @@
+PODS:
+  - FIDynamicViewController (0.1.0)
+
+DEPENDENCIES:
+  - FIDynamicViewController (from `../`)
+
+EXTERNAL SOURCES:
+  FIDynamicViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FIDynamicViewController: 16df44f473a046c5f4edcde0ee1c38fa71d0b257
+
+COCOAPODS: 0.38.2
