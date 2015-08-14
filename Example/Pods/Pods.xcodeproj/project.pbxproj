@@ -13,7 +13,6 @@
 		337D31D9CDEC814F6E5E69390199D5FE /* Pods-FIDynamicViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC70BA94F52CC86EA01D984999838B5F /* Pods-FIDynamicViewController_Example-dummy.m */; };
 		4341A5EA792850FA7A8D110136FBA61D /* Pods-FIDynamicViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E65251EB9166713B1518984B7A1B3C0D /* Pods-FIDynamicViewController_Tests-dummy.m */; };
 		930407ED1B7E07A300131D62 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 930407EC1B7E07A300131D62 /* .gitkeep */; };
-		930407F01B7E07B300131D62 /* FIX.m in Sources */ = {isa = PBXBuildFile; fileRef = 930407EF1B7E07B300131D62 /* FIX.m */; };
 		988B56AB012CAB871A7186ED788EC31C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1998072A72DDB9D331C89DB7F616286C /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,8 +48,6 @@
 		7B124595EE03CFEB427ED3A30DAD1CAA /* Pods_FIDynamicViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FIDynamicViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC155CF2CDDEC7D5A3B4BF2E26EA424 /* Pods-FIDynamicViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FIDynamicViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		930407EC1B7E07A300131D62 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		930407EE1B7E07B300131D62 /* FIX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIX.h; sourceTree = "<group>"; };
-		930407EF1B7E07B300131D62 /* FIX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIX.m; sourceTree = "<group>"; };
 		93105CFD8548945EA1B14DAB83EB015D /* Pods-FIDynamicViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FIDynamicViewController_Example-resources.sh"; sourceTree = "<group>"; };
 		9A3B41FDE037F0234D8B59D1D8F19FA9 /* Pods-FIDynamicViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FIDynamicViewController_Example-umbrella.h"; sourceTree = "<group>"; };
 		A168EA09DD37D70FC6995479E2ABCA2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -160,8 +157,6 @@
 			isa = PBXGroup;
 			children = (
 				930407EC1B7E07A300131D62 /* .gitkeep */,
-				930407EE1B7E07B300131D62 /* FIX.h */,
-				930407EF1B7E07B300131D62 /* FIX.m */,
 			);
 			name = Classes;
 			path = Pod/Classes;
@@ -331,7 +326,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				930407F01B7E07B300131D62 /* FIX.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
