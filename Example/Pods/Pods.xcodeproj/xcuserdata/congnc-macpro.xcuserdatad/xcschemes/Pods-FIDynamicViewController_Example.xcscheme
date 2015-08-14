@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "42407E383A1725ED8E55A43A"
+               BlueprintIdentifier = "D00CF7B882886B6F90CE51E7"
                BuildableName = "Pods_FIDynamicViewController_Example.framework"
                BlueprintName = "Pods-FIDynamicViewController_Example"
                ReferencedContainer = "container:Pods.xcodeproj">

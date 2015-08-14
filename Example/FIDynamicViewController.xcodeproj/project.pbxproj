@@ -21,7 +21,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		930407E21B7DFD3900131D62 /* FIDynamicViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930407E11B7DFD3900131D62 /* FIDynamicViewController.framework */; };
 		E49F3A1C60E777DB4BD38601 /* Pods_FIDynamicViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F33851353160E379554D0D /* Pods_FIDynamicViewController_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		EFD97922F537573E22BB2803 /* Pods_FIDynamicViewController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9839B954DF2A9165F68956A /* Pods_FIDynamicViewController_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
@@ -64,7 +63,6 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		81968721E0588F5753FDE227 /* FIDynamicViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FIDynamicViewController.podspec; path = ../FIDynamicViewController.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		930407E11B7DFD3900131D62 /* FIDynamicViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FIDynamicViewController.framework; sourceTree = "<group>"; };
 		B9839B954DF2A9165F68956A /* Pods_FIDynamicViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FIDynamicViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F68D26505A372D66D70B9A62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,7 +76,6 @@
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				EFD97922F537573E22BB2803 /* Pods_FIDynamicViewController_Example.framework in Frameworks */,
-				930407E21B7DFD3900131D62 /* FIDynamicViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +117,6 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				930407E11B7DFD3900131D62 /* FIDynamicViewController.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
