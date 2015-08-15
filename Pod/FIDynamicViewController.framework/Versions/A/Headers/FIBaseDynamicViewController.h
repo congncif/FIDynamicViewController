@@ -12,31 +12,23 @@
 @interface FIBaseDynamicViewController : UIViewController<FIDynamicViewControllerProtocol>
 
 /**
- *
- *  Model for storing data model in view controller
- *
- **/
+  Model for storing data model in view controller
+*/
 @property (nonatomic, strong) id dynamicPresenter;
 
 /**
- *
- *  Call this method to update model presenter
- *
- **/
+  Call this method to update model presenter
+*/
 - (void)updatePresenterWithBlock: (void(^)()) block;
 
 /**
- *
- *  Override this methods to handle when presenter updated
- *
- **/
+  Override this methods to handle when presenter updated
+*/
 - (void)presenterNeedUpdate;
 
 /**
- *
- *  Functions
- *
- **/
+  Functions
+*/
 - (void)configurePresenterForSubControllers;
 - (void)addSubViewController:(UIViewController *)childController withConfiguration: (void(^)(UIView *childView))configurationBlock;
 - (void)removeSubViewController:(UIViewController *)childController;

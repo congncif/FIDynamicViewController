@@ -15,27 +15,21 @@
 @interface FIBaseSubViewController : UIViewController <FISubViewControllerProtocol>
 
 @property (nonatomic, weak) id dynamicPresenter;
-@property (nonatomic, weak) id<FIDynamicViewControllerProtocol> delegate;
+@property (nonatomic, weak) id<FIDynamicViewControllerProtocol> containerController;
 
 /**
- *
- *  Call this method when update presenter model
- *
- **/
+    Call this method when update presenter model
+*/
 - (void)updatePresenterWithBlock: (void(^)()) block;
 
 /**
- *
- *  Override this methods to handle when presenter updated
- *
- **/
+  Override this methods to handle when presenter updated
+*/
 - (void)presenterNeedUpdate;
 
 /**
- *
- *  Call this method when has update layout at sub view controller
- *
- **/
+  Call this method when has update layout at sub view controller
+*/
 - (void)needUpdateLayoutAnimated: (BOOL)animated;
 
 @end
