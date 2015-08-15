@@ -13,14 +13,37 @@
 
 @protocol FISubViewControllerProtocol <NSObject>
 
+/**
+ Reference of presenter model, setting automatic
+*/
 @property (nonatomic, weak) id dynamicPresenter;
-@property (nonatomic, weak) id<FIDynamicViewControllerProtocol> delegate;
 
+@property (nonatomic, weak) id<FIDynamicViewControllerProtocol> containerController;
+
+/**
+ [Function] Functions to call
+*/
 - (void)updatePresenterWithBlock: (void(^)()) block;
-
-- (void)presenterNeedUpdate;
-
 - (CGRect)frameForLayout;
 - (void)needUpdateLayoutAnimated: (BOOL)animated;
+
+/**
+ *
+ *  Method need implement by sub class
+ *
+ **/
+
+/**
+ [Implementation] To handler when model changed
+*/
+- (void)presenterNeedUpdate;
+
+/**
+ [Implementation] Recive action from container view controller
+ return YES if want to continue perform this action with other sub view controllers
+ and NO if want to stop at current controller.
+*/
+- (BOOL)receiveActionWithInfo: (id)actionInfo;
+
 
 @end

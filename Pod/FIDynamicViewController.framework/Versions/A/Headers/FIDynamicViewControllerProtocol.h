@@ -11,11 +11,36 @@
 @protocol FISubViewControllerProtocol;
 @protocol FIDynamicViewControllerProtocol <NSObject>
 
+/**
+ Presenter model for store, exchange data
+*/
 @property (nonatomic, strong) id dynamicPresenter;
 
+/**
+ *
+ *  Functions to call
+ *
+ **/
+
+/**
+ [Function] Call when update presenter
+*/
 - (void)updatePresenterWithBlock: (void(^)()) block;
+
+/**
+ [Function] Call when need send update presenter notification manually
+*/
 - (void)presenterNeedUpdate;
 
+/**
+ [Function] Send custom action to sub view controllers
+*/
+- (void)sendActionToSubControllersWithInfo: (id)actionInfo;
+
+
+/**
+ [Implementation] Delegate Methods sent from subviewcontroller
+*/
 - (void)subViewController: (id<FISubViewControllerProtocol>) subViewController changedPresenter: (id)presenter;
 - (void)subViewControllerNeedUpdateLayout: (id<FISubViewControllerProtocol>) subViewController animated:(BOOL)animated;
 
@@ -25,6 +50,10 @@
  *  For custom action if need
  *
  **/
+
+/**
+ [Implementation] Sent from subviewcontroller
+*/
 - (void)subViewController: (id<FISubViewControllerProtocol>) subViewController sentActionWithInfo: (id)actionInfo;
 
 @end
