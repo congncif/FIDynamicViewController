@@ -33,9 +33,11 @@
 - (void)presenterNeedUpdate;
 
 /**
- [Function] Send custom action to sub view controllers
-*/
-- (void)sendActionToSubControllersWithInfo: (id)actionInfo;
+ [Function] Send custom action to sub view controllers.
+ return YES if action pass all sub controllers successfully. 
+ return NO if action stop at any sub controller (include last controller).
+ */
+- (BOOL)sendActionToSubControllersWithInfo: (id)actionInfo;
 
 
 /**
