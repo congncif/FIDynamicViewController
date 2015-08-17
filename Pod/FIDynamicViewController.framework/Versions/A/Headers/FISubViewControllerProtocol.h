@@ -40,7 +40,7 @@
 
 /**
  [Implementation] Recive action from container view controller
- return YES if this action pass successfully at current controller and want to continue perform this action with other sub view controllers.
+ return YES if this action passes successfully at current controller and want to continue perform this action with other sub view controllers.
  return NO if this action doesn't pass and want to stop at current controller.
 */
 - (BOOL)receiveActionWithInfo: (id)actionInfo;

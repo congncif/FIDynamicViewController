@@ -34,8 +34,8 @@
 
 /**
  [Function] Send custom action to sub view controllers.
- return YES if action pass all sub controllers successfully. 
- return NO if action stop at any sub controller (include last controller).
+ return YES if action passes all sub controllers successfully.
+ return NO if action stops at any sub controller (include last controller).
  */
 - (BOOL)sendActionToSubControllersWithInfo: (id)actionInfo;
 
@@ -55,6 +55,7 @@
 
 /**
  [Implementation] Sent from subviewcontroller
+ Remember call super method when override
 */
 - (void)subViewController: (id<FISubViewControllerProtocol>) subViewController sentActionWithInfo: (id)actionInfo;
 
