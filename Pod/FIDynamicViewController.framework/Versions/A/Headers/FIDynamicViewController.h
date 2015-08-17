@@ -21,3 +21,4 @@
 #import "FIBaseSubViewController.h"
 
 #import "FIBaseVerticalLayoutDynamicViewController.h"
+#import "FIDynamicAction.h"
