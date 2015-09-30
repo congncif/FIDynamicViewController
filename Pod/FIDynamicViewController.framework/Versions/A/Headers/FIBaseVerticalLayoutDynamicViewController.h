@@ -22,10 +22,10 @@
  *  Functions
  *
  **/
-- (void)pushSubViewController:(UIViewController *)childController animated: (BOOL)animated;
+- (void)pushSubViewController:(UIViewController <FISubViewControllerProtocol>*)childController animated: (BOOL)animated;
 - (void)popSubViewController:(UIViewController *)childController animated: (BOOL)animated;
 
-- (void)pushSubViewController:(UIViewController *)childController insertAtIndex: (NSInteger)index animated: (BOOL)animated ;
+- (void)pushSubViewController:(UIViewController <FISubViewControllerProtocol>*)childController insertAtIndex: (NSInteger)index animated: (BOOL)animated ;
 - (void)popSubViewControllerAtIndex: (NSInteger)index animated: (BOOL)animated;
 
 - (void)configureHeaderViewController: (UIViewController *)childController animated:(BOOL)animated;
